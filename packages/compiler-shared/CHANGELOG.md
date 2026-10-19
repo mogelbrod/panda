@@ -1,5 +1,15 @@
 # @pandacss/compiler-shared
 
+## 2.3.0
+
+### Patch Changes
+
+- 675fa00: Fix slow first builds with the PostCSS plugin in projects that have imports Panda can't resolve.
+- 93269f5: Report missing tokens in style strings during linting and `panda cssgen`, including references with
+  fallbacks. Check pattern style props with rules such as `prefer-token`.
+- Updated dependencies [f01a419]
+  - @pandacss/types@2.3.0
+
 ## 2.2.0
 
 ### Patch Changes
